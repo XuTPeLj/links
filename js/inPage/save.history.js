@@ -1,5 +1,4 @@
 (() => {
-
   const _browser = this._browser || this.browser || this.chrome;
   const storage = _browser.storage.local;
 

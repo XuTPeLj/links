@@ -2,6 +2,10 @@
 const _browser = this._browser || this.browser || this.chrome;
 const storage = _browser.storage.local;
 
+function encodeHTML(raw){
+  return raw.replace(/[\u00A0-\u9999<>\&]/gim, i => '&#' + i.charCodeAt(0) + ';');
+}
+
 
 function formatDate(dateStr) {
   if (typeof dateStr !== 'string') return '';
@@ -50,8 +54,8 @@ const renderDialog = () => {
       var a=1;
       divListTasks.innerHTML = options.history.map(task=>`
 <tr>
-  <td class="text title" title="${unescape(task.title)}">
-    ${task.title}
+  <td class="text title" title="${encodeHTML(task.title)}">
+    ${encodeHTML(task.title)}
   </td>
   <td class="text">
     ${formatDate(task.date)}
@@ -60,8 +64,8 @@ const renderDialog = () => {
     ${task.count}
   </td>
   <td class="text">
-    <a href="${task.url}" target="_blank">
-      ${task.url}
+    <a href="${encodeHTML(task.url)}" target="_blank">
+      ${encodeHTML(task.url)}
     </a>
   </td>
 </tr>
