@@ -1,0 +1,134 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Abre rápidamente el ticket de Jira correspondiente"
+   },
+   "baseURL": {
+      "description": "base URL you need to enter for a valid ticket URL",
+      "message": "URL base de Jira"
+   },
+   "baseURLDescription": {
+      "description": "Description text of the base URL",
+      "message": "Por favor ingresa la URL de Jira QuickSearch. Tenga en cuenta que la URL necesita terminar con símbolo igual"
+   },
+   "baseURLExample": {
+      "description": "Info text with an example JIRA URL. URL is followed after the sentence",
+      "message": "Por ejemplo:"
+   },
+   "baseURLMoreInfo": {
+      "description": "Info text for the JIRA QuickSearch function. URL is followed after the sentence",
+      "message": "Más información acerca de JIRA QuickSearch puede encontrarse aquí:"
+   },
+   "changelog": {
+      "description": "Link in footer",
+      "message": "Registro de cambios"
+   },
+   "changelogHeader": {
+      "description": "Header of changelog",
+      "message": "Registro de cambios de Quick JIRA (quiji)"
+   },
+   "changelogTitle": {
+      "description": "Title in tab",
+      "message": "Quick JIRA (quiji) ha sido actualizado"
+   },
+   "currentTab": {
+      "description": "Button for opening in the current tab",
+      "message": "pestaña actual"
+   },
+   "defaultAction": {
+      "description": "Default action (new tab or current tab) for opening a ticket",
+      "message": "Acción por defecto"
+   },
+   "defaultActionDescription": {
+      "description": "Description text for the default action",
+      "message": "Elige la acción por defecto al presionar la tecla enter.\u003Cbr>Abrir el ticket en la pestaña actual o en una nueva pestaña"
+   },
+   "defaultTitle": {
+      "description": "Message displayed on the settings page of Chrome",
+      "message": "Abrir rápidamente los tickets de Jira"
+   },
+   "donate": {
+      "description": "Link in footer",
+      "message": "¿Donar?"
+   },
+   "donationChain": {
+      "description": "Donation workflow text",
+      "message": "Donation chain — You donate → I can buy some coffee → faster updates & more features → you profit! :)"
+   },
+   "donationTitle": {
+      "description": "Text in tab",
+      "message": "Donaciones a Quick JIRA (quiji)"
+   },
+   "feedback": {
+      "description": "Link in footer",
+      "message": "Sugerencias"
+   },
+   "handmade": {
+      "description": "Text in footer",
+      "message": "Made with ❤️️ and ☕ by timbru31"
+   },
+   "lastTicket": {
+      "description": "Button for opening the last ticket again",
+      "message": "ticket anterior"
+   },
+   "newTab": {
+      "description": "Button for opening in a new tab",
+      "message": "pestaña nueva"
+   },
+   "openInCurrentTab": {
+      "description": "Message display on right click",
+      "message": "Abrir en la pestaña actual"
+   },
+   "openInNewTab": {
+      "description": "Message display on right click",
+      "message": "Abrir en una pestaña nueva"
+   },
+   "options": {
+      "description": "Link in footer",
+      "message": "Opciones"
+   },
+   "optionsTitle": {
+      "description": "Title in tab",
+      "message": "Quick JIRA (quiji) opciones"
+   },
+   "saveOptions": {
+      "description": "Text for button",
+      "message": "Guardar opciones"
+   },
+   "savedOptions": {
+      "description": "Text displayed when button is pressed",
+      "message": "Las opciones han sido guardadas"
+   },
+   "shortcuts": {
+      "description": "Headline for shortcuts",
+      "message": "Accesso directos de teclado"
+   },
+   "shortcutsDescription": {
+      "description": "Info text for current shortcuts",
+      "message": "Listado de accessos directos de teclado"
+   },
+   "support": {
+      "description": "Link in footer",
+      "message": "Soporte"
+   },
+   "supportDevelopment": {
+      "description": "Donation info header",
+      "message": "¿Quieres fomentar el desarrollo de Quick JIRA?"
+   },
+   "trimSpaces": {
+      "description": "Headline for trim spaces",
+      "message": "Quitar espacios"
+   },
+   "trimSpacesDescription": {
+      "description": "Info text for trim spaces",
+      "message": "Elimina espacios de tickets. Desactive esta función cuando utilice la JIRA Quick Search."
+   },
+   "validURL": {
+      "description": "Error message on invalid URL",
+      "message": "Por favor especifique una URL válida"
+   },
+   "version": {
+      "description": "Please do not alter this value",
+      "message": "Quick JIRA v0.11.2"
+   }
+}
