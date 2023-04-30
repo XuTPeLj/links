@@ -12,15 +12,12 @@
 
   }
 
-  console.log('[storage]', storage);
   if (storage && typeof storage.get === 'function') {
-    console.log('[storage.get]', storage.get);
     storage.get(
       {
         history: [],
       },
       options => {
-        console.log('[options]', options.history);
         // options.history = [];
         const currentLink = window.location.href;
         const findNom = options.history.findIndex(el => el.url === currentLink);
@@ -46,10 +43,25 @@
             count: 1,
           });
         }
-        console.log('[options.history]', options.history);
+
         storage.set({
           history: options.history
         });
+
+        storage.get(
+          {
+            history: [],
+          },
+          options_ => {
+            const findNom = options_.history.findIndex(el => el.url === currentLink);
+            if (findNom === -1) {
+              options.history.splice(options.history.length - 1, 1);
+
+              storage.set({
+                history: options.history
+              });
+            }
+          });
       }
     );
   }
